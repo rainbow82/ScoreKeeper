@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">Court Counter</string>
+    <string name="app_name">Quidditch Score Keeper</string>
     <string name="score">0</string>
-    <string name="teamA">Team A</string>
-    <string name="teamB">Team B</string>
-    <string name="three_points">\+3 points</string>
-    <string name="two_points">\+2 points</string>
-    <string name="free_throw">Free Throw</string>
+    <string name="teamA">Gryffindor</string>
+    <string name="teamB">Slytherin</string>
+    <string name="three_points">\+10 points</string>
+    <string name="two_points">Golden Snitch</string>
     <string name="reset">Reset</string>
 </resources>

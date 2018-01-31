@@ -3,7 +3,7 @@
     <dimen name="text_padding">4dp</dimen>
     <dimen name="button_margin_bottom">8dp</dimen>
     <dimen name="layout_width">0dp</dimen>
-    <dimen name="team_name">14sp</dimen>
+    <dimen name="team_name">24sp</dimen>
     <dimen name="score_size">56sp</dimen>
     <dimen name="linear_layout_master">16dp</dimen>
     <dimen name="score_margin_top">16dp</dimen>

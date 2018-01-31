@@ -35,13 +35,14 @@
                 android:padding="@dimen/text_padding"
                 android:textSize="@dimen/team_name"
                 android:textColor="@color/team_name_color"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/HARRP___"
                 android:text="@string/teamA" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/gryfindor"/>
+                android:src="@drawable/gryfindor"
+                android:layout_gravity="center_horizontal"/>
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -58,11 +59,12 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="55dp"
                 android:layout_marginBottom="@dimen/button_margin_bottom"
                 android:layout_marginLeft="@dimen/button_side_margin"
                 android:layout_marginRight="@dimen/button_side_margin"
                 android:onClick="add_three_points_team_a"
+                android:background="@drawable/buttonshape"
                 android:text="@string/three_points" />
 
             <Button
@@ -74,13 +76,6 @@
                 android:onClick="add_two_points_team_a"
                 android:text="@string/two_points" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/button_side_margin"
-                android:layout_marginRight="@dimen/button_side_margin"
-                android:onClick="add_free_throw_team_a"
-                android:text="@string/free_throw" />
         </LinearLayout>
 
         <View
@@ -102,13 +97,14 @@
                 android:padding="@dimen/text_padding"
                 android:textSize="@dimen/team_name"
                 android:textColor="@color/team_name_color"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/HARRP___"
                 android:text="@string/teamB" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/slytherin2"/>
+                android:src="@drawable/slytherin2"
+                android:layout_gravity="center_horizontal"/>
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -141,13 +137,6 @@
                 android:onClick="add_two_points_team_b"
                 android:text="@string/two_points" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/button_side_margin"
-                android:layout_marginRight="@dimen/button_side_margin"
-                android:onClick="add_free_throw_team_b"
-                android:text="@string/free_throw" />
         </LinearLayout>
 
     </LinearLayout>
