@@ -67,7 +67,7 @@
                 android:layout_marginBottom="@dimen/button_margin_bottom"
                 android:layout_marginLeft="@dimen/button_side_margin"
                 android:layout_marginRight="@dimen/button_side_margin"
-                android:onClick="add_three_points_team_a"
+                android:onClick="add_ten_points_team_a"
                 android:background="@drawable/gryffindor_button_shape"
                 android:textColor="@color/button_text"
                 android:textStyle="bold"
@@ -86,7 +86,7 @@
                 android:textColor="@color/button_text"
                 android:textStyle="bold"
                 android:textSize="@dimen/button_text"
-                android:onClick="add_two_points_team_a"
+                android:onClick="add_one_hundred_fifty_points_team_a"
                 android:text="@string/two_points" />
 
         </LinearLayout>
@@ -143,7 +143,7 @@
                 android:textColor="@color/button_text"
                 android:textStyle="bold"
                 android:textSize="@dimen/button_text"
-                android:onClick="add_three_points_team_b"
+                android:onClick="add_ten_points_team_b"
                 android:text="@string/three_points" />
 
             <Button
@@ -153,13 +153,13 @@
                 android:layout_marginLeft="@dimen/button_side_margin"
                 android:layout_marginRight="@dimen/button_side_margin"
                 android:background="@drawable/slytherin_button_shape"
-                android:onClick="add_two_points_team_b"
-                android:paddingLeft="@dimen/button_padding"
-                android:paddingRight="@dimen/button_padding"
-                android:text="@string/two_points"
                 android:textColor="@color/button_text"
                 android:textSize="@dimen/button_text"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/button_padding"
+                android:paddingRight="@dimen/button_padding"
+                android:onClick="add_one_hundred_fifty_points_team_b"
+                android:text="@string/two_points" />
 
         </LinearLayout>
 
