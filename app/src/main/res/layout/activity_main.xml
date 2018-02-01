@@ -6,12 +6,16 @@
     android:layout_weight="0">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="@dimen/reset_button_side_margins"
         android:layout_marginLeft="@dimen/reset_button_side_margins"
         android:layout_marginBottom="@dimen/reset_button_bottom_margin"
+        android:background="@drawable/reset_button_shape"
+        android:textColor="@color/button_text"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_text"
         android:layout_centerHorizontal="true"
         android:text="@string/reset"
         android:onClick="reset"/>
@@ -34,8 +38,8 @@
                 android:gravity="center_horizontal"
                 android:padding="@dimen/text_padding"
                 android:textSize="@dimen/team_name"
-                android:textColor="@color/team_name_color"
-                android:fontFamily="@font/HARRP___"
+                android:textColor="@color/gryffindor"
+                android:fontFamily="@font/harrypotter"
                 android:text="@string/teamA" />
 
             <ImageView
@@ -52,19 +56,22 @@
                 android:padding="@dimen/text_padding"
                 android:textSize="@dimen/score_size"
                 android:textColor="@color/score_color"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/harrypotter"
                 android:layout_marginTop="@dimen/score_margin_top"
                 android:layout_marginBottom="@dimen/score_margin_bottom"
                 android:text="@string/score" />
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="55dp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/button_margin_bottom"
                 android:layout_marginLeft="@dimen/button_side_margin"
                 android:layout_marginRight="@dimen/button_side_margin"
                 android:onClick="add_three_points_team_a"
-                android:background="@drawable/buttonshape"
+                android:background="@drawable/gryffindor_button_shape"
+                android:textColor="@color/button_text"
+                android:textStyle="bold"
+                android:textSize="@dimen/button_text"
                 android:text="@string/three_points" />
 
             <Button
@@ -73,6 +80,12 @@
                 android:layout_marginBottom="@dimen/button_margin_bottom"
                 android:layout_marginLeft="@dimen/button_side_margin"
                 android:layout_marginRight="@dimen/button_side_margin"
+                android:paddingLeft="@dimen/button_padding"
+                android:paddingRight="@dimen/button_padding"
+                android:background="@drawable/gryffindor_button_shape"
+                android:textColor="@color/button_text"
+                android:textStyle="bold"
+                android:textSize="@dimen/button_text"
                 android:onClick="add_two_points_team_a"
                 android:text="@string/two_points" />
 
@@ -81,7 +94,7 @@
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@android:color/darker_gray">
+            android:background="@color/view">
         </View>
 
         <LinearLayout
@@ -96,8 +109,9 @@
                 android:gravity="center_horizontal"
                 android:padding="@dimen/text_padding"
                 android:textSize="@dimen/team_name"
-                android:textColor="@color/team_name_color"
-                android:fontFamily="@font/HARRP___"
+                android:textColor="@color/slytherin"
+                android:textStyle="bold"
+                android:fontFamily="@font/harrypotter"
                 android:text="@string/teamB" />
 
             <ImageView
@@ -114,7 +128,7 @@
                 android:padding="@dimen/text_padding"
                 android:textSize="@dimen/score_size"
                 android:textColor="@color/score_color"
-                android:fontFamily="sans-serif-light"
+                android:fontFamily="@font/harrypotter"
                 android:layout_marginTop="@dimen/score_margin_top"
                 android:layout_marginBottom="@dimen/score_margin_bottom"
                 android:text="@string/score" />
@@ -125,6 +139,10 @@
                 android:layout_marginLeft="@dimen/button_side_margin"
                 android:layout_marginRight="@dimen/button_side_margin"
                 android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:background="@drawable/slytherin_button_shape"
+                android:textColor="@color/button_text"
+                android:textStyle="bold"
+                android:textSize="@dimen/button_text"
                 android:onClick="add_three_points_team_b"
                 android:text="@string/three_points" />
 
@@ -134,8 +152,14 @@
                 android:layout_marginBottom="@dimen/button_margin_bottom"
                 android:layout_marginLeft="@dimen/button_side_margin"
                 android:layout_marginRight="@dimen/button_side_margin"
+                android:background="@drawable/slytherin_button_shape"
                 android:onClick="add_two_points_team_b"
-                android:text="@string/two_points" />
+                android:paddingLeft="@dimen/button_padding"
+                android:paddingRight="@dimen/button_padding"
+                android:text="@string/two_points"
+                android:textColor="@color/button_text"
+                android:textSize="@dimen/button_text"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

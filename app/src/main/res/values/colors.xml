@@ -3,7 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="team_name_color">#616161</color>
     <color name="score_color">#000000</color>
     <color name="background_color">#90A4AE</color>
+    <color name="slytherin">#2a623d</color>
+    <color name="button_text">#fff</color>
+    <color name="gryffindor">#ae0001</color>
+    <color name="view">#311B92</color>
 </resources>
