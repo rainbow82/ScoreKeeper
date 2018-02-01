@@ -35,33 +35,23 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-    public void add_three_points_team_a(View view){
-        scoreTeamA += 3;
+    public void add_ten_points_team_a(View view){
+        scoreTeamA += 10;
         displayForTeamA(scoreTeamA);
     }
 
-    public void add_three_points_team_b(View view){
-        scoreTeamB += 3;
+    public void add_ten_points_team_b(View view){
+        scoreTeamB += 10;
         displayForTeamB(scoreTeamB);
     }
 
-    public void add_two_points_team_a(View view){
-        scoreTeamA += 2;
+    public void add_one_hundred_fifty_points_team_a(View view){
+        scoreTeamA += 150;
         displayForTeamA(scoreTeamA);
     }
 
-    public void add_two_points_team_b(View view){
-        scoreTeamB += 2;
-        displayForTeamB(scoreTeamB);
-    }
-
-    public void add_free_throw_team_a(View view){
-        scoreTeamA += 1;
-        displayForTeamA(scoreTeamA);
-    }
-
-    public void add_free_throw_team_b(View view){
-        scoreTeamB += 1;
+    public void add_one_hundred_fifty_points_team_b(View view){
+        scoreTeamB += 150;
         displayForTeamB(scoreTeamB);
     }
 
