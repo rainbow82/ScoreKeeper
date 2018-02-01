@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="text_padding">4dp</dimen>
-    <dimen name="button_margin_bottom">12dp</dimen>
+    <dimen name="button_margin_bottom">24dp</dimen>
     <dimen name="layout_width">0dp</dimen>
     <dimen name="team_name">24sp</dimen>
     <dimen name="score_size">56sp</dimen>
@@ -12,4 +12,5 @@
     <dimen name="reset_button_side_margins">22dp</dimen>
     <dimen name="reset_button_bottom_margin">8dp</dimen>
     <dimen name="button_text">16sp</dimen>
+    <dimen name="button_padding">6dp</dimen>
 </resources>

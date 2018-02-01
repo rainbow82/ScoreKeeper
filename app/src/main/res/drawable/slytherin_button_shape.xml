@@ -12,7 +12,6 @@
         android:type="linear"
         />
 
-
     <stroke
         android:width="3dp"
         android:color="#aaaaaa"
