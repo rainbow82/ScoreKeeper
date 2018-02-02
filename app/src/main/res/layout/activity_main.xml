@@ -45,7 +45,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/gryfindor"
+                android:src="@drawable/gryfindor_png"
                 android:layout_gravity="center_horizontal"/>
 
             <TextView
@@ -117,7 +117,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/slytherin2"
+                android:src="@drawable/slytherin_png"
                 android:layout_gravity="center_horizontal"/>
 
             <TextView
